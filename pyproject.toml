@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dash-attention"
+version = "0.1.0"
+description = "Dash Attention"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "triton",
+]
+
+[tool.setuptools.packages.find]
+include = ["dash_attn*"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
