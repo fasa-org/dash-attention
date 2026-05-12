@@ -1,7 +1,7 @@
+<div align="center">
 <h1>DashAttention</h1>
 
-
-**Differentiable and Adaptive Sparse Hierarchical Attention**
+<p><strong>Differentiable and Adaptive Sparse Hierarchical Attention</strong></p>
 </div>
 
 <div align="center" style="line-height: 1;">
@@ -9,7 +9,7 @@
     <img alt="Code" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
   <a href="https://huggingface.co/collections/TODO" style="margin: 2px;">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/NOSA-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
+    <img alt="Hugging Face" src="https://img.shields.io/badge/DashAttention-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
   </a>
   <a href="https://arxiv.org/abs/TODO" style="margin: 2px;">
     <img alt="Paper" src="https://img.shields.io/badge/Paper-TODO-b31b1b.svg" style="display: inline-block; vertical-align: middle;"/>
