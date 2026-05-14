@@ -18,11 +18,11 @@
 
 
 
-# Installation
+## Installation
 
 TBD
 
-# Usage
+## Usage
 
 The dash attention's interface can be used as follows:
 
@@ -46,16 +46,29 @@ We also provide an example on how to use DashAttention in Llama-architecture mod
 ```
 python ./example/run_niah.py
 ```
-# Efficiency
 
-TBD
+## Models
 
-# Performance
+We release our 8B models for reproducibility. 
 
-TBD
+| Model | Link |
+|:-:|:-:|
+| 8B-FullAttn | TODO |
+| 8B-InfLLMv2 | TODO |
+| 8B-NSA | TODO |
+| 8B-DashAttention | TODO |
 
+## Benchmarks
 
-# Citation 
+- Efficiency: TODO
+
+- Perfermance: Please refer to [README](./benchmarks/performance/README.md).
+
+## Acknowledgement
+
+This repository is developed with the aid of [RULER](https://github.com/NVIDIA/RULER), [OLMES](https://github.com/allenai/olmes), [InfLLMv2](https://github.com/OpenBMB/infllmv2_cuda_impl), and [NSA-triton](https://github.com/XunhaoLai/native-sparse-attention-triton).
+
+## Citation 
 
 ```latex
 @article{dash-attention,
