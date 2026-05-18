@@ -8,7 +8,7 @@
   <a href="https://github.com/fasa-org/dash-attention" style="margin: 2px;">
     <img alt="Code" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://huggingface.co/collections/TODO" style="margin: 2px;">
+  <a href="https://huggingface.co/collections/fasa-org/dashattention" style="margin: 2px;">
     <img alt="Hugging Face" src="https://img.shields.io/badge/DashAttention-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
   </a>
   <a href="https://arxiv.org/abs/TODO" style="margin: 2px;">
@@ -20,7 +20,12 @@
 
 ## Installation
 
-TBD
+For the usage of DashAttention kernels and running the example, please run the following script:
+```
+pip install -e .
+```
+
+For benchmark environment setup, please refer to each corresponding folder.
 
 ## Usage
 
@@ -53,14 +58,14 @@ We release our 8B models for reproducibility.
 
 | Model | Link |
 |:-:|:-:|
-| 8B-FullAttn | TODO |
-| 8B-InfLLMv2 | TODO |
-| 8B-NSA | TODO |
-| 8B-DashAttention | TODO |
+| 8B-FullAttn | [Hugging Face](https://huggingface.co/fasa-org/MiniCPM-4-8B-FullAttn) |
+| 8B-InfLLMv2 | [Hugging Face](https://huggingface.co/fasa-org/MiniCPM-4-8B-InfLLMv2) |
+| 8B-NSA | [Hugging Face](https://huggingface.co/fasa-org/MiniCPM-4-8B-NSA) |
+| 8B-DashAttention | [Hugging Face](https://huggingface.co/fasa-org/MiniCPM-4-8B-DashAttention) |
 
 ## Benchmarks
 
-- Efficiency: TODO
+- Efficiency: Please refer to [README](./benchmarks/efficiency/README.md).
 
 - Perfermance: Please refer to [README](./benchmarks/performance/README.md).
 
