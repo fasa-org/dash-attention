@@ -10,7 +10,6 @@
         - For DashAttention, also copy `tools/dashattn/*` to the model directory.
     - Then you are all set.
         - Tune the `scaling_factor` at `tools/infllmv2/modeling_llama_long_infllmv2:818` to adjust the sparsity of DashAttention.
-        - Change the logging path at `tools/infllmv2/modeling_llama_long_infllmv2:73` to store the activatation statistics for sparsity calculation. Then use `python check_act.py` to calculate the average density across tasks.
         - Tune the `topk` to adjust the sparsity of InfLLMv2 and NSA.
     
 - RULER: Please refer to `RULER/README.md`

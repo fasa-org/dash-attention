@@ -4,7 +4,7 @@ from transformers import AutoTokenizer
 from dash_attn.models.llama import LlamaForCausalLM 
 
 
-DEFAULT_MODEL_PATH = "/home/test/test01/hyx/MiniCPM-4-1B-SFT-DashAttn"
+DEFAULT_MODEL_PATH = "fasa-org/MiniCPM-4-8B-DashAttention"
 BOLD = "\033[1m"
 RESET = "\033[0m"
 
@@ -71,7 +71,7 @@ def main() -> None:
     parser.add_argument("--sparsity-exclude-prefix-tokens", type=int, default=4096)
     args = parser.parse_args()
 
-    tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True, local_files_only=True)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
     prompt, answer, question = build_niah_s_1_prompt(tokenizer, args.digits, args.target_tokens)
     inputs = encode_chat_prompt(tokenizer, prompt)
     input_ids = inputs.input_ids.to(args.device)
@@ -81,7 +81,6 @@ def main() -> None:
     model = LlamaForCausalLM.from_pretrained(
         args.model_path,
         torch_dtype=dtype,
-        local_files_only=True,
         attn_implementation=args.attn_implementation,
         scaling_factor=args.scaling_factor,
     ).to(args.device)

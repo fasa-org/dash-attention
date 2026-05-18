@@ -8,8 +8,12 @@ version = "0.1.0"
 description = "Dash Attention"
 requires-python = ">=3.10"
 dependencies = [
-    "torch",
-    "triton",
+    "torch==2.6.0",
+    "triton==3.2.0",
+    "transformers==4.56.0",
+    "tokenizers==0.22.0",
+    "datasets==2.20.0",
+    "accelerate==1.10.1",
 ]
 
 [tool.setuptools.packages.find]
