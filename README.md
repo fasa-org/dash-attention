@@ -11,8 +11,8 @@
   <a href="https://huggingface.co/collections/fasa-org/dashattention" style="margin: 2px;">
     <img alt="Hugging Face" src="https://img.shields.io/badge/DashAttention-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://arxiv.org/abs/TODO" style="margin: 2px;">
-    <img alt="Paper" src="https://img.shields.io/badge/Paper-TODO-b31b1b.svg" style="display: inline-block; vertical-align: middle;"/>
+  <a href="https://arxiv.org/abs/2605.18753" style="margin: 2px;">
+    <img alt="Paper" src="https://img.shields.io/badge/Paper-2605.18753-b31b1b.svg" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
 
@@ -79,7 +79,7 @@ This repository is developed with the aid of [RULER](https://github.com/NVIDIA/R
 @article{dash-attention,
   title={DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention},
   author={Huang, Yuxiang and Gon{\c{c}}alves, Nuno M. T. and Alvetreti, Federico and Li, Lei and Han, Xu and Ponti, Edoardo M. and Martins, Andr{\'e} F. T. and Treviso, Marcos V.},
-  journal={arXiv preprint arXiv:TODO},
+  journal={arXiv preprint arXiv:2605.18753},
   year={2026}
 }
 ```
