@@ -135,6 +135,8 @@ We release our 8B models for reproducibility.
 | 8B-NSA | [Hugging Face](https://huggingface.co/fasa-org/MiniCPM-4-8B-NSA) |
 | 8B-DashAttention | [Hugging Face](https://huggingface.co/fasa-org/MiniCPM-4-8B-DashAttention) |
 
+The base models we use are [MiniCPM4-1B-Base](https://modelscope.cn/models/OpenBMB/MiniCPM4-1B-Base), [MiniCPM4-3B-Base](https://modelscope.cn/models/OpenBMB/MiniCPM4-3B-Base), and [MiniCPM4-8B-Base](https://modelscope.cn/models/OpenBMB/MiniCPM4-8B-Base).
+
 ## Benchmarks
 
 - Performance: Please refer to [README](./benchmarks/performance/README.md).
